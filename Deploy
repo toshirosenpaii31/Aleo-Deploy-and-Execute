@@ -1,0 +1,19 @@
+Arguments:
+program_id - The ID of the program to deploy
+path - The path to the package directory
+optional - defaults to the current directory
+private_key - The private key used to generate the deployment
+shortcut -p
+query - The endpoint to query node state from
+shortcut - -q
+fee - The deployment fee in microcredits
+optional - defaults to 0
+record - The record to spend the fee from
+display - Display the generated transaction
+optional - defaults to false
+broadcast - Broadcast the transaction to a specified endpoint
+optional
+store - Store the transaction to a specified file path.
+optional
+Example:
+snarkos developer deploy fibonacci.aleo --private-key <PRIVATE_KEY> --query "http://localhost:3030" --path "./leo/examples/fibonacci/build/" --broadcast "http://localhost:3030/testnet3/transaction/broadcast" --fee 550000 --record <INSERT_RECORD_HERE>
