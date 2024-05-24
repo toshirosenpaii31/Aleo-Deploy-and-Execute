@@ -1,0 +1,9 @@
+Argument:
+view_key - The view key used to decrypt found records
+shortcut: -v
+start - The starting block height of the query
+end - The end block height of the query
+endpoint - Endpoint to fetch blocks from
+Example:
+
+snarkos developer scan -v <VIEW_KEY> --start 0 --end 1 --endpoint "http://localhost:3030"
