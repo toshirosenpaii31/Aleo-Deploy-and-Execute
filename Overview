@@ -1,0 +1,5 @@
+Deployment and execution of programs is done via four new developer CLI commands in snarkOS - decrypt, deploy, execute, scan, and transfer.
+
+These CLI commands currently live in snarkOS, but can also be migrated to the Aleo SDK.
+
+Note: All the operations are done client-side and do not require sending private keys or view keys to third parties.
