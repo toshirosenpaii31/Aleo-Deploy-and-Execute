@@ -1,0 +1,1 @@
+snarkos developer deploy fibonacci.aleo --private-key <PRIVATE_KEY> --query "http://localhost:3030" --path "../leo/examples/fibonacci/build/" --broadcast "http://localhost:3030/testnet3/transaction/broadcast" --fee 600000 --record <INPUT_RECORD>
