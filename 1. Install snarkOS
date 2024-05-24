@@ -1,0 +1,4 @@
+git clone https://github.com/AleoHQ/snarkOS.git
+cd snarkOS
+git checkout testnet3
+cargo install --path .
