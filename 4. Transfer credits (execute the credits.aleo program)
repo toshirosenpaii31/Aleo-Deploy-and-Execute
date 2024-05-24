@@ -1,0 +1,5 @@
+snarkos developer execute credits.aleo transfer <INPUT_RECORD> <RECIPIENT_ADDRESS> "<AMOUNT_TO_TRANSFER>u64" --private-key <PRIVATE_KEY> --query "http://localhost:3030" --broadcast "http://localhost:3030/testnet3/transaction/broadcast" 
+
+OR
+
+snarkos developer transfer <AMOUNT_TO_TRANSFER> --input-record <INPUT_RECORD> --recipient <RECIPIENT_ADDRESS>  --private-key <PRIVATE_KEY> --query "<http://localhost:3030>" --broadcast "<http://localhost:3030/testnet3/transaction/broadcast>"
