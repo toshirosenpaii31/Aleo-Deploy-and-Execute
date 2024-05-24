@@ -1,0 +1,1 @@
+snarkos developer execute fibonacci.aleo fibonacci "1u8" --private-key <PRIVATE_KEY> --query "http://localhost:3030" --broadcast "http://localhost:3030/testnet3/transaction/broadcast" 
