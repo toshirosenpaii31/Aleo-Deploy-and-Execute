@@ -1,0 +1,1 @@
+snarkos developer scan -v <VIEW_KEY> --start 0 --end 1 --endpoint "http://localhost:3030"
