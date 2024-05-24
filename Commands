@@ -1,0 +1,13 @@
+Decrypt
+Decrypt a record ciphertext using a view key.
+
+Arguments:
+ciphertext- The record ciphertext to decrypt
+shortcut: -c
+view_key - The view key used to decrypt the ciphertext
+shortcut: -v
+
+
+Example:
+snarkos developer decrypt  -v <VIEW_KEY> -c <RECORD_CIPHERTEXT>
+
