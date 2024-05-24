@@ -1,0 +1,22 @@
+Arguments:
+program_id - The ID of the program to deploy
+function - The name of the function
+inputs - The function inputs
+private_key - The private key used to generate the deployment
+shortcut -p
+query - The endpoint to query node state from
+shortcut - -q
+fee - The deployment fee in microcredits
+optional
+record - The record to spend the fee from
+optional
+display - Display the generated transaction
+optional - defaults to false
+broadcast - Broadcast the transaction to a specified endpoint
+optional
+store - Store the transaction to a specified file path.
+optional
+Example:
+snarkos developer execute fibonacci.aleo fibonacci "1u8" --private-key <PRIVATE_KEY> --query "http://localhost:3030" --broadcast "http://localhost:3030/testnet3/transaction/broadcast" 
+
+
